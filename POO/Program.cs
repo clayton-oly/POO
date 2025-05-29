@@ -32,7 +32,9 @@ cachorro.DadosAnimal();
 Forma forma = new Circulo();
 forma.Desenha();
 
-//-----------------------Herança-----------------------
+//-----------------------Abstração-----------------------
+Funcionario funcionario = new Gerente();
+funcionario.CalcularSalario();
 
 
 
